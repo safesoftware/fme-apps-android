@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FME Alerts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_notifications">FME Alerts</string>
+    <string name="clear_alerts">Clear alerts</string>
+    <string name="settings">Settings</string>
+    <string name="alerts">Alerts</string>
+    <string name="fme_server_account_information">FME Server Account Information</string>
+    <string name="location_tracking">Location Tracking</string>
+    <string name="host">Host</string>
+    <string name="username">Username</string>
+    <string name="details">Details</string>
+    <string name="topics">Topics</string>
+    <string name="high_precision">High Precision</string>
+    <string name="distance_filter">Distance Filter</string>
+    <string name="time_interval">Time Interval</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="clearAllAlerts">Remove all alerts?</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    <string name="versionNum">1.0.0</string>
+    <string name="poweredBy">Powered by FME Server</string>
+    <string name="gotoSafeCom">Go to www.safe.com</string>
+    <string name="gotoServerHomepage">Go to FME Server homepage</string>
+    <string name="GotoServicePage">Go to Notification Service page</string>
+    <string name="gps_tracking">GPS Tracking</string>
+    <string name="content_provider_authority">fme.alerts.provider</string>
+</resources>

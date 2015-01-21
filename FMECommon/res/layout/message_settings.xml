@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/mainLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="7dp" >
+
+        <TextView
+            android:id="@+id/fromLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:paddingTop="10dp"
+            android:text="@string/from"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <View
+            style="@style/groupLineBreak"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/firstNameLabel"
+                style="@style/messageLabel"
+                android:text="@string/firstNameLabel" />
+
+            <EditText
+                android:id="@+id/firstNameText"
+                style="@style/messageEditText"
+                android:hint="@string/optional"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lastNameLabel"
+                style="@style/messageLabel"
+                android:text="@string/lastNameLabel" />
+
+            <EditText
+                android:id="@+id/lastNameText"
+                style="@style/messageEditText"
+                android:hint="@string/optional"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/emailLabel"
+                style="@style/messageLabel"
+                android:text="@string/emailLabel" />
+
+            <EditText
+                android:id="@+id/emailText"
+                style="@style/messageEditText"
+                android:hint="@string/optional"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/messageLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:paddingTop="20dp"
+            android:text="@string/message"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <View
+            style="@style/groupLineBreak"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/subjectLabel"
+                style="@style/messageLabel"
+                android:text="@string/subjectLabel" />
+
+            <EditText
+                android:id="@+id/subjectText"
+                style="@style/messageEditText"
+                android:hint="@string/optional"
+                android:inputType="textEmailSubject" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/webAddressLabel"
+                style="@style/messageLabel"
+                android:text="@string/webAddressLabel" />
+
+            <EditText
+                android:id="@+id/webAddressText"
+                style="@style/messageEditText"
+                android:hint="@string/optional"
+                android:inputType="textUri" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/detailsLabel"
+                style="@style/messageLabel"
+                android:text="@string/detailsLabel" />
+
+            <EditText
+                android:id="@+id/detailsText"
+                style="@style/messageEditText"
+                android:hint="@string/optional"
+                android:inputType="textLongMessage" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

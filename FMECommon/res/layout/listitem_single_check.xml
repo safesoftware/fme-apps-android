@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topicInfoContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="6dip"
+    
+    >
+    
+      <ImageButton
+          android:id="@+id/topicMoreInfo"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginRight="3dp"
+          android:clickable="true"
+          android:src="@android:drawable/ic_menu_info_details"
+          android:padding="8dp"
+          android:background="?android:selectableItemBackground"
+           />
+    
+        <CheckedTextView
+            android:text="This is some sample text"
+            android:id="@+id/tv_MainText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:checkMark="?android:attr/textCheckMark"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:lines="2"
+            android:ellipsize="end"
+        />
+
+        <TextView
+            android:text="This is some sample text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_SubText"
+            android:gravity="left"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:visibility="gone"
+        />
+
+</LinearLayout>

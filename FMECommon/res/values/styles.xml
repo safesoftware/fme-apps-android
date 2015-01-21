@@ -1,0 +1,118 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="messageLabel" parent="android:Widget.Holo.TextView">
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.7</item>
+    </style>
+
+    <style name="messageEditText" parent="android:Widget.Holo.EditText">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.4</item>
+    </style>
+
+    <style name="groupLineBreak">
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="groupLineBreak_Small">
+        <item name="android:background">@color/TransparentDarkGrey</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        
+    </style>
+
+    <style name="groupLineBreak_Small2" parent="@style/groupLineBreak_Small">
+        <item name="android:layout_marginLeft">7dp</item>
+    </style>
+
+    <style name="groupCategoryHeading" parent="android:Widget.Holo.TextView">
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="selectableLinearLayout">
+        <item name="android:padding">7dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/selector_native_android</item>
+    </style>
+
+    <style name="transparentLinearLayout">
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingRight">7dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="transparentLinearLayout2" parent="@style/transparentLinearLayout">
+        <item name="android:paddingTop">0dp</item>
+    </style>
+
+    <style name="textLocationOptions">
+        <item name="android:padding">7dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="timeIntervalWrapper">
+        <item name="android:layout_marginRight">35dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+    </style>
+
+    <style name="naviDrawerImgBtn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:background">@drawable/selector_grey_onpress</item>
+    </style>
+
+    <style name="naviDrawerDeleteBtn" parent="@style/naviDrawerImgBtn">
+        <item name="android:padding">10dp</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+    </style>
+
+    <style name="naviDrawerText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">8dp</item>
+    </style>
+
+    <style name="linearLayout4SubLists">
+        <item name="android:animateLayoutChanges">false</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/Grey3</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="naviMainRow">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:dividerPadding">6dp</item>
+        <item name="android:showDividers">middle</item>
+    </style>
+
+</resources>

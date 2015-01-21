@@ -1,0 +1,74 @@
+<resources>
+
+    <string name="app_name">FME Reporter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">FME Reporter</string>
+    <string name="settings_button_label">Settings</string>
+    <string name="FME_server_host_label">FME Server Host</string>
+    <string name="URL_label">URL</string>
+    <string name="FME_Server_login">FME Server Login</string>
+    <string name="Password_label">Password</string>
+    <string name="Username_label">Username</string>
+    <string name="Email_label">Email Address (Optional)</string>
+    <string name="FME_Server_topic_label">FME Server Topic</string>
+    <string name="Message_label">Message</string>
+    <string name="Title_label">Title (Optional)</string>
+    <string name="Description_label">Description (Optional)</string>
+    <string name="Time_interval_label">Time Interval (In Minutes)</string>
+    <string name="Distance_filter_label">Distance Filter (In Meters)</string>
+    <string name="Clear_pins_label">Clear when timer starts</string>
+    <string name="Pins_label">Pins</string>
+    <string name="About_label">About This App</string>
+    <string name="Goto_safe_label">About Safe Software</string>
+    <string name="Goto_server_label">About FME Server</string>
+    <string name="Copyright_label">Copyright</string> 
+    <string name="Copyright_string">FME Reporter Copyright 2012 by Safe Software Inc.\nAll rights reserved.</string> 
+    <string name="SavedSettings">FMEReporterSavedSettings</string>
+    <string name="send_button_label">Send</string>
+    <string name="cancel_button_label">Stop</string>
+    <string name="start_button_label">Start</string>
+    <string name="Use_time_interval">Use time interval</string>
+    <string-array name="pin_number_options">
+        <item>Don\'t show any pins</item>
+        <item>Show the last 10 pins</item>
+        <item>Show the last 20 pins</item>
+        <item>Show the last 30 pins</item>
+        <item>Show the last 40 pins</item>
+        <item>Show the last 50 pins</item>
+        <item>Show the last 60 pins</item>
+        <item>Show the last 70 pins</item>
+        <item>Show the last 80 pins</item>
+        <item>Show the last 90 pins</item>
+        <item>Show the last 100 pins</item>
+    </string-array>
+    <string name="ClearAllPins">Do you want to remove all pins?</string>
+    <string name="LocationReported">Location Reported</string>
+    <string name="UnableToReport">Unable to Report Location</string>
+    <string name="insufficient_server_info">Insufficient Server Info</string>
+    <string name="insufficient_info_details">Please enter the host, username, and password and then choose at least one topic to report your current location.</string>
+    <string name="time_interval">Time Interval</string>
+    <string name="distance_filter">Distance Filter</string>
+    <string name="high_precision">High Precision</string>
+    <string name="topics">Topics</string>
+    <string name="location_tracking">Location Tracking</string>
+    <string name="username">Username</string>
+    <string name="host">Host</string>
+    <string name="fme_server_account_information">FME Server Account Information</string>
+    <string name="details">Details</string>
+    <string name="settings">Settings</string>
+    <string name="gpsOptions">GPS Options</string>
+    <string name="autoReportLocation">Auto Report Location</string>
+    <string name="highPrecision">High Precision</string>
+    <string name="version">Version</string>
+    <string name="versionNum">2.0.0</string>
+    <string name="poweredBy">Powered by FME Server</string>
+    <string name="gotoSafeCom">About Safe Software</string>
+    <string name="gotoServerHomepage">About FME Server</string>
+    <string name="GotoServicePage">About Notification Service</string>
+    <string name="password">Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="Topic_size">topic_num</string>
+    <string name="topic">topic</string>
+</resources>

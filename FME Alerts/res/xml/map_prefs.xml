@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/fme.alerts"
+     >
+    <CheckBoxPreference 
+        android:key="automovecamera"
+        android:title="Auto Move Camera"
+        android:summary="Automatically move the camera to reported location"
+        android:layout="@layout/sample_layout_prefs"
+        android:defaultValue="false"
+        android:persistent="true"
+        />
+    <CheckBoxPreference 
+        android:key="autoclosenavidrawer"
+        android:title="Close Navigation Menu"
+        android:summary="Automatically close the side menu when 'Go To Location' button clicked"
+        android:layout="@layout/sample_layout_prefs"
+        android:defaultValue="true"
+        android:persistent="true"
+        />
+    <CheckBoxPreference 
+        android:key="promtuser"
+        android:title="Prompt When Deleting"
+        android:summary="Show a prompt to confirm the deletion of a single item"
+        android:layout="@layout/sample_layout_prefs"
+        android:persistent="true"
+        />
+    <fme.alerts.custom_widgets.CustomNumberPicker
+        custom:defaultValue="20"
+        custom:min="1"
+        custom:max="20"
+        custom:multiplier="10"
+        android:persistent="true"
+        android:key="numberOfItemsToDisplay"
+        android:title="Number of Items"
+        android:widgetLayout="@layout/textview_widget_mapprefs"
+        android:layout="@layout/sample_layout_prefs"
+        android:summary="Maximum number of items to display on map and in lists for each category"
+        />
+</PreferenceScreen>
